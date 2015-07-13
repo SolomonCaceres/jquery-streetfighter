@@ -1,13 +1,75 @@
 body {
-  background-color: black;
+  background-image: url("http://images3.alphacoders.com/203/203725.gif"); 
+
 }
 
 
+
+.ryubig {
+  position: absolute;
+  z-index: 9;
+  top: 20px;
+  left: 430px;
+ /* margin-left:-100px;*/
+  
+}
+
+
+.ryubig {
+  max-width: 900px;
+  height: 643px;
+}
+
+
+.ryubig{
+
+	float:right;
+}
+
+
+
+.textbox {
+     
+ 
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  z-index: 11;
+  
+  top: 195px;
+  left: 670px;
+  
+  font-size: 30px;
+  font-family: 'Press Start 2P', cursive;
+  color: yellow;
+}
+
+
+
+
+.groundtext {
+     
+  width: 800px;
+  height: 1px;
+  position: absolute;
+  z-index: 11;
+  
+  top: 486px;
+  left: 30px;
+  
+  font-size: 50px;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+}
+
+
+
 .main {
-  background-color: white;
-  margin-top: 110px;
+  opacity: 1.0;     
+  margin-top: 75px;
   padding-left: 100px;
-  min-width: 1200px;
+  min-width: 1000px;
+
   height: 500px;
   position: relative;
   z-index: 1;
@@ -72,8 +134,55 @@ body {
 
   }
 
+.ryubig {
+  background-image: url('../images/ryubig.png');
+}
 
 
-* {
+
+
+
+
+
+  .groundtext {
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+  }
+ 
+  .groundtext:hover  {
+    -webkit-transform: translate(3em,0);
+    -moz-transform: translate(3em,0);
+    -o-transform: translate(3em,0);
+    -ms-transform: translate(3em,0);
+    transform: translate(3em,0);
+  }
+
+
+
+.ryubig {
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+  }
+ 
+  .ryubig:hover  {
+    -webkit-transform: translate(-2em,0);
+    -moz-transform: translate(-2em,0);
+    -o-transform: translate(-2em,0);
+    -ms-transform: translate(-2em,0);
+    transform: translate(-2em,0);
+  }
+
+
+
+
+
+
+
+  /* {
   outline: red 1px solid;
 }
+*/
