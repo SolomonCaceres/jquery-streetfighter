@@ -70,7 +70,7 @@ body{
   position: absolute;
   z-index: 9;
   top: 20px;
-  left: 465px;
+  left: 470px;
  /* margin-left:-100px;*/
   
 }
@@ -131,7 +131,7 @@ body{
   opacity: 1.0;     
   margin-top: 63px;
   padding-left: 100px;
-  min-width: 1000px;
+  min-width: 1200px;
 
   height: 570px;
   position: relative;
@@ -234,11 +234,11 @@ body{
   }
  
   .ryubig:hover  {
-    -webkit-transform: translate(-2em,0);
-    -moz-transform: translate(-2em,0);
-    -o-transform: translate(-2em,0);
-    -ms-transform: translate(-2em,0);
-    transform: translate(-2em,0);
+    -webkit-transform: translate(-1.5em,0);
+    -moz-transform: translate(-1.5em,0);
+    -o-transform: translate(-1.5em,0);
+    -ms-transform: translate(-1.5em,0);
+    transform: translate(-1.5em,0);
   }
 
 
